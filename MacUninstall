@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [[ -f /Library/PrivilegedHelperTools/scthost.app/Contents/Resources/uninstall.sh ]]; then
+    /Library/PrivilegedHelperTools/scthost.app/Contents/Resources/uninstall.sh
+fi
+
+if [[ -f /Library/PrivilegedHelperTools/scthost.app/Contents/Resources/uninstall ]]; then
+    /Library/PrivilegedHelperTools/scthost.app/Contents/Resources/uninstall
+fi
